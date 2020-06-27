@@ -26,7 +26,7 @@ void setup()
   digitalWrite(S2,HIGH);
   digitalWrite(S3,HIGH);
   digitalWrite(S4,HIGH);
-
+  Serial.begin(9600);
 }
 byte income=0;
 void loop()
